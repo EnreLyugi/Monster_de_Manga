@@ -245,4 +245,4 @@ client.on('messageReactionAdd', (reaction, user) => {
     }
 });
 
-client.login(process.env.TOKEN);
+client.login(process.env.BOT_TOKEN);
