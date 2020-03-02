@@ -1,6 +1,5 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
-require('http').createServer().listen(3000)
 
 //Emojis
 var monsterDeManga = '683838210127954051';
