@@ -100,7 +100,7 @@ client.on('message', function(msg) {
     	msg.channel.send('Monster de Manga!');
     	msg.react(monsterDeManga);
     }
-    if(msg.content.includes("monster de manga") == true || msg.content.includes("<@!683823688843264024>") == true)
+    if(msg.content.includes("monster de manga") == true || msg.content.includes("bichinho de manga") == true || msg.content.includes("<@!683823688843264024>") == true)
     {
     	rand = Math.floor(Math.random() * 2);
     	if(rand == 0)
