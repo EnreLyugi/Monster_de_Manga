@@ -1,8 +1,4 @@
 const Discord = require('discord.js');
-const {
-	prefix,
-	token,
-} = require('./config.json');
 const client = new Discord.Client();
 
 //Emojis
@@ -248,4 +244,4 @@ client.on('messageReactionAdd', (reaction, user) => {
     }
 });
 
-client.login(token);
+client.login(process.env.TOKEN);
